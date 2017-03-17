@@ -1,9 +1,13 @@
 // plik scripts.js
 
-function rysujChoinkę (a) {
-	for ( var p = 0; p<a; p++ ) 
-		var star = ''; {
-			for ( var n; star += '*' ; n*2-1 )
-				console.log(star);
+//function rysujChoinkę (a) {
+
+var star ='';
+var a = 5;
+for(i=0; i<=a; i++) {
+	for(n=0; n<=1; n++) {
+		star += '*';
+		console.log(star);
 	}
 }
+//}
