@@ -1,13 +1,14 @@
 // plik scripts.js
 
-//function rysujChoinkę (a) {
+var n = prompt("Podaj wysokość choinki: ");
 
-var star ='';
-var a = 5;
-for(i=1; i<=a; i++) {
-	for(n=0; n<=1; n++) {
-		star += '*';
-		console.log(star);
-	}
+function rysujChoinke() {
+  var star = '';
+  for ( var k = 0 ; k < n; k++) {
+    for ( var i = k; i <= k; i++ ) {
+      star += "*";
+      console.log(star);
+     }
+  }
 }
-//}
+rysujChoinke();
